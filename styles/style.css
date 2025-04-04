@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #ff63c3;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -105,6 +105,11 @@ p {
 }
 .logo {
   max-width: 150px;
+  color: var(--branding-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
 }
 nav li {
   display: inline-block;
@@ -150,7 +155,14 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-
+a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+a:hover {
+  color: violet;
+  text-decoration: none;
+}
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
