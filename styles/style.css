@@ -38,7 +38,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -85,7 +85,7 @@ p {
   line-height: 30px;
 }
 .content-container {
-  padding: 120px 60px;
+  padding: 50px 60px;
 }
 .content {
   margin: 30px;
